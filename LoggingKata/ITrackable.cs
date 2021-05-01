@@ -1,8 +1,12 @@
-﻿namespace LoggingKata
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace LoggingKata
 {
     public interface ITrackable
     {
-        string Name { get; set; }
-        Point Location { get; set; }
+       public string Name { get; set; }
+       public Point Location { get; set; }
     }
 }
